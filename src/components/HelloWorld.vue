@@ -10,7 +10,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      greeting: 'Hel2lo'
+      greeting: '333Hel2lo'
     }
   },
   props: {
