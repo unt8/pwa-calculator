@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && workbox injectManifest workbox-config.js",
+    "build": "vue-cli-service build && ./node_modules/workbox-cli/build/bin.js injectManifest workbox-config.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "workbox-cli": "^4.3.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
