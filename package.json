@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && ./node_modules/workbox-cli/build/bin.js injectManifest workbox-config.js",
+    "build": "vue-cli-service build && workbox injectManifest workbox-config.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
